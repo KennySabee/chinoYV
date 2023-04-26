@@ -1,29 +1,28 @@
-import Header from '../components/header'
-import Inicio from '../components/inicio'
-import QuienesSomos from '../components/quienesSomos'
-import Cursos from '../components/cursos'
-import Galeria from '../components/galeria'
-import Director from '../components/director' 
-import Testimonios from '../components/testimonios'
-import Contacto from '../components/contacto'
-import Footer from '../components/footer'
-
+import Head from "next/head";
+import Hero from "@/components/Hero";
+import QuienesSomos from "@/components/QuienesSomos";
+import Cursos from "@/components/Cursos";
+import Galeria from "@/components/Galeria";
+import { SliderData } from "@/components/SliderData";
+import EquipoDocente from "@/components/EquipoDocente";
+import Testimonios from "@/components/Testimonios";
+import Testimonios2 from "@/components/Testimonios2";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
-    
-    <Header/>
-    <Inicio/>
-    <QuienesSomos/>
-    <Cursos/>
-    <Galeria/>
-    <Director/>
-    <Testimonios/>
-    <Contacto/>
-    <Footer/>
-
-
+      <Head>
+        <title>Club Chino YV | Escuela de Chino Mandarin</title>
+      </Head>
+      <Hero message="Aprende el idioma del futuro" />
+      <QuienesSomos />
+      <Cursos />
+      {/* <Testimonios /> */}
+      <Testimonios2 />
+      <Galeria slides={SliderData} />      
+      <EquipoDocente />
+      <Contact />
     </>
-  )
+  );
 }
