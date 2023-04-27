@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const TestimonioCard = ({title, info, name, profession,img}) => {
   return (
@@ -12,10 +13,11 @@ const TestimonioCard = ({title, info, name, profession,img}) => {
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center space-x-3">
-              <img
+              <Image
                 className="rounded-full w-9 h-9"
                 src={img}
-                alt="profile picture"
+                alt="testimonial picture"
+                priority
               />
               <div className="space-y-0.5 font-medium  text-left">
                 <div>{name}</div>
