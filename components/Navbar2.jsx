@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import navLogo from "../public/assets/navLogo.png";
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
 import { BsWhatsapp, BsInstagram, BsFacebook} from "react-icons/bs";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={navLogo} alt="/" width={70} height={70} className="mt-3" />
+          <Image src={navLogo} alt="/" width={50} height={50} className="mt-3" />
         </Link>
 
         <div>
@@ -92,7 +92,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full  items-center justify-between">
               <Link href="/" onClick={() => setNav(false)}>
                 <Image src={navLogo} alt="/" width={50} height={50} />
               </Link>
@@ -104,13 +104,13 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-2">
                 Aprende el idioma del futuro{" "}
               </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
-            <ul className="uppercase">
+            <ul className="uppercase ">
               <li onClick={() => setNav(false)} className="py-4 text-sm">
                 <Link href="/">Inicio</Link>
               </li>
@@ -133,8 +133,8 @@ const Navbar = () => {
                 <Link href="/#contact">Contacto</Link>
               </li>
             </ul>
-            <div className=" pt-40">
-              <p className="uppercase tracking-widest ">
+            <div className=" flex flex-col mt-12 ">
+              <p className="uppercase tracking-widest text-sm">
                 Conecta con nosotros
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
