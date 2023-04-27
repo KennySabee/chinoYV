@@ -11,12 +11,12 @@ const Cursos = () => {
   return (
     <div id='cursos' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <div className="uppercase text-xl tracking-widest text-red-600"><Typewriter
+            <div className="uppercase text-2xl tracking-widest text-red-600 font-semibold"><Typewriter
               options={{
                 strings: [ "cursos","学习课程"],
                 autoStart: true,
                 loop: true,
-                pauseFor: 6000,
+                pauseFor: 2000,
                 cursor: ''
               }}
               

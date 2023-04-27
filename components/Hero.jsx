@@ -13,14 +13,14 @@ const Hero = ({ message }) => {
       <div className="max-w-[1240px] p-5  text-white z-[2] mx-auto flex flex-col justify-center items-center text-center ">
         <div>
           <p className="text-sm uppercase text-gray-200">{message}</p>
-          <h1 className="pt-4">
+          <h1 className="pt-4 ">
             <Typewriter
               options={{
                 strings: ["大家好，我们是", "Hola somos"],
                 autoStart: true,
                 loop: true,
-                pauseFor: 3000,
-                cursor: "",
+                pauseFor: 500,
+                cursor: "|",
               }}
             />
           </h1>
@@ -28,6 +28,7 @@ const Hero = ({ message }) => {
           <h1 className="py-4 text-red-600">
             <span className="text-white">Club</span> Chino YV
           </h1>
+          
           <p className="py-4 text-gray-200 max-w-[70%] m-auto">
             Somos una academia de Chino Mandarín especializada en brindar una
             enseñanza del idioma y cultura china excepcional. Actualmente, nos
@@ -35,6 +36,20 @@ const Hero = ({ message }) => {
             virtual, como presencial, pregunta por ellos.
           </p>
         </div>
+        {/* 2da animacion */}
+        {/* <div className="content">
+          <div className="content__container">
+            <p className="content__container__text">Hello</p>
+
+            <ul className="content__container__list">
+              <li className="content__container__list__item">world !</li>
+              <li className="content__container__list__item">bob !</li>
+              <li className="content__container__list__item">users !</li>
+              <li className="content__container__list__item">everybody !</li>
+            </ul>
+          </div>
+        </div> */}
+
         <div className="flex justify-between items-center  m-auto py-4">
           <Link
             href="https://www.facebook.com/clubchinoyv"

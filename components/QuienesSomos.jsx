@@ -13,13 +13,13 @@ const QuienesSomos = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           
-          <div className="uppercase tracking-widest text-xl text-red-600">
+          <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
           <Typewriter
               options={{
                 strings: [ "Quienes somos","关于我们"],
                 autoStart: true,
                 loop: true,
-                pauseFor: 6000,
+                pauseFor: 2000,
                 cursor: ''
                 
               }}

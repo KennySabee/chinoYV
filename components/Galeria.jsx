@@ -23,16 +23,21 @@ const Galeria = ({ slides }) => {
 
   return (
     <div id='galeria' className='max-w-[1240px] mx-auto px-2 py-16'>
-      <div className='uppercase text-xl tracking-widest text-red-600'><Typewriter
+      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+          <Typewriter
               options={{
-                strings: ["画廊", "Galeria"],
+                strings: [ "画廊", "Galeria"],
                 autoStart: true,
                 loop: true,
-                pauseFor: 6000,
+                pauseFor: 2000,
                 cursor: ''
+                
               }}
               
-            /></div>
+              
+            />
+          </div>
+     
       <h2 className="py-4">Conoce a nuestros alumnos</h2>
       <div className='relative flex justify-center p-4'>
 

@@ -6,14 +6,26 @@ import { BsWhatsapp, BsInstagram, BsFacebook } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import Form from "./Form";
+import Typewriter from "typewriter-effect";
 
 const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] mx-auto px-2 py-16 w-full">
-        <p className="uppercase text-xl tracking-widest text-red-600">
-          Contacto
-        </p>
+      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+          <Typewriter
+              options={{
+                strings: [ "Contacto","接触"],
+                autoStart: true,
+                loop: true,
+                pauseFor: 2000,
+                cursor: ''
+                
+              }}
+              
+              
+            />
+          </div>
         <h2 className="py-4">Comunícate</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}

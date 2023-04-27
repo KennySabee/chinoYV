@@ -1,14 +1,26 @@
 import React from "react";
 import cursoOnline from "@/public/assets/projects/cursosOnline.jpeg";
 import EquipoCard from "@/components/EquipoCard";
+import Typewriter from "typewriter-effect";
 
 const EquipoDocente = () => {
   return (
     <div id="equipo" className="w-full ">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="uppercase text-xl tracking-widest text-red-600">
-        Equipo Docente
-        </p>
+      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+          <Typewriter
+              options={{
+                strings: [ "Equipo Docente","关于我们"],
+                autoStart: true,
+                loop: true,
+                pauseFor: 2000,
+                cursor: ''
+                
+              }}
+              
+              
+            />
+          </div>
         <h2 className="py-4">Equipo Académico y Administrativo</h2>
         <div className="grid md:grid-cols-3 gap-8 group">
           <EquipoCard
