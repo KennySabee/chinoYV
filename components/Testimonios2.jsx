@@ -13,7 +13,7 @@ const Testimonios2 = () => {
       <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
           <Typewriter
               options={{
-                strings: [ "Testimonios","关于我们"],
+                strings: [ "Testimonios","感言"],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2000,

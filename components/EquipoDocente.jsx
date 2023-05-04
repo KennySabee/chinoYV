@@ -10,7 +10,7 @@ const EquipoDocente = () => {
       <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
           <Typewriter
               options={{
-                strings: [ "Equipo Docente","关于我们"],
+                strings: [ "Equipo Docente","教学团队"],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2000,

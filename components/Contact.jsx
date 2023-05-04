@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import contact from "@/public/assets/contact.jpg";
+import contact from "@/public/assets/croquis.png";
 import { FaTiktok } from "react-icons/fa";
 import { BsWhatsapp, BsInstagram, BsFacebook } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 ">
             <div className="lg:p-4 h-full">
               <div>
-                <Link href="/#form">
+                <Link href="https://www.google.com.ec/maps/place/Club+Chino+YV/@-0.3000723,-78.4574318,17z/data=!3m1!4b1!4m6!3m5!1s0x91d5bd9886a65f89:0x73880249bf161b86!8m2!3d-0.3000723!4d-78.4574318!16s%2Fg%2F11ptxzkdsz?hl=es" target="_blank">
                   <Image
                     className="rounded-xl hover:scale-105 ease-in duration-300"
                     src={contact}
@@ -42,7 +42,7 @@ const Contact = () => {
                 </Link>
               </div>
               <div>
-                <h2 className="py-2">Club Chino YV</h2>
+                <h2 className="py-2 mt-3">Club Chino YV</h2>
                 <p>Academia de Chino Mandarin</p>
                 <p className="py-4">
                   Disponemos de cursos virtuales como presenciales. Contáctanos

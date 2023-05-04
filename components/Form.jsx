@@ -57,15 +57,7 @@ const Form = () => {
           type="email" placeholder="mail@mail.com" id="email" name="email"
         />
       </div>
-      <div className="flex flex-col py-2">
-        <label className="uppercase text-sm p-2" htmlFor="">
-          Asunto
-        </label>
-        <input
-          className="border-2 rounded-lg p-3 flex border-gray-300"
-          type="text"
-        />
-      </div>
+      
       <div className="flex flex-col py-2">
         <label className="uppercase text-sm p-2" htmlFor="message">
           Mensaje

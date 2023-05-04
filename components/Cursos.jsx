@@ -13,7 +13,7 @@ const Cursos = () => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <div className="uppercase text-2xl tracking-widest text-red-600 font-semibold"><Typewriter
               options={{
-                strings: [ "cursos","学习课程"],
+                strings: [ "cursos","培训班"],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2000,

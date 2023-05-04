@@ -26,7 +26,7 @@ const Galeria = ({ slides }) => {
       <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
           <Typewriter
               options={{
-                strings: [ "画廊", "Galeria"],
+                strings: [ "Galeria","画廊" ],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2000,

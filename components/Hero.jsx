@@ -36,19 +36,7 @@ const Hero = ({ message }) => {
             virtual, como presencial, pregunta por ellos.
           </p>
         </div>
-        {/* 2da animacion */}
-        {/* <div className="content">
-          <div className="content__container">
-            <p className="content__container__text">Hello</p>
-
-            <ul className="content__container__list">
-              <li className="content__container__list__item">world !</li>
-              <li className="content__container__list__item">bob !</li>
-              <li className="content__container__list__item">users !</li>
-              <li className="content__container__list__item">everybody !</li>
-            </ul>
-          </div>
-        </div> */}
+        
 
         <div className="flex justify-between items-center  m-auto py-4">
           <Link
