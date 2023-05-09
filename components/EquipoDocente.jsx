@@ -1,5 +1,9 @@
 import React from "react";
-import cursoOnline from "@/public/assets/projects/cursosOnline.jpeg";
+import adrianY from "@/public/assets/docentes/adrianY.jpeg";
+import carlosS from "@/public/assets/docentes/carlosS.jpeg";
+import elizabeth from "@/public/assets/docentes/elizabeth.jpeg";
+import cristian from "@/public/assets/docentes/cristian.jpeg";
+import alejandra from "@/public/assets/docentes/alejandra.jpeg";
 import EquipoCard from "@/components/EquipoCard";
 import Typewriter from "typewriter-effect";
 
@@ -24,28 +28,45 @@ const EquipoDocente = () => {
         <h2 className="py-4">Equipo Académico y Administrativo</h2>
         <div className="grid md:grid-cols-3 gap-8 group">
           <EquipoCard
-            img={cursoOnline}
-            nombre={"John Doe"}
+            img={adrianY}
+            nombre={"Ing. Adrian Yanchapaxi"}
             puesto={'Director del Club'}
             info={`
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. "`}
           />
           <EquipoCard
-            img={cursoOnline}
-            nombre={"Luis Pereira"}
-            puesto={'Director del Club'}
+            img={carlosS}
+            nombre={"Msc. Carlos Simba"}
+            puesto={'Maestro del Club'}
             info={`
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo reiciendis minus praesentium deleniti vitae officia rem aperiam blanditiis in"`}
           />
           <EquipoCard
-            img={cursoOnline}
-            nombre={"Camila Gallegos"}
-            puesto={'Director del Club'}
+            img={elizabeth}
+            nombre={"Lic. Elizabeth Caicedo"}
+            puesto={'Maestra del Club'}
+            info={`
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."`}
+          />
+         
+          <EquipoCard
+            img={cristian}
+            nombre={"Msc. Cristian Proaño"}
+            puesto={'Maestro del Club'}
+            info={`
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."`}
+          />
+          <EquipoCard
+            img={alejandra}
+            nombre={"Alejandra Núñez"}
+            puesto={'Area administrativa'}
             info={`
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit."`}
           />
           
         </div>
+        
+          
       </div>
     </div>
   );

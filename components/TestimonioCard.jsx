@@ -8,7 +8,7 @@ const TestimonioCard = ({title, info, name, profession,img}) => {
               <h3 className="text-lg font-semibold text-gray-900 ">
                 {title}
               </h3>
-              <p className="my-4">
+              <p className="my-4 text-sm md:text-base">
                 {info}
               </p>
             </blockquote>

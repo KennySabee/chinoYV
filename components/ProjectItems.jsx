@@ -8,7 +8,7 @@ const ProjectItems = ({ img, title, useWith, url }) => {
         className="rounded-xl group-hover:opacity-10 "
         src={img}
         alt="/"
-        style={{ objectFit: "cover", height:'85%'} }
+        style={{ objectFit: "cover"} }
         priority
         
       />
