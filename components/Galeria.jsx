@@ -22,7 +22,7 @@ const Galeria = ({ slides }) => {
   }
 
   return (
-    <div id='galeria' className='max-w-[1240px] mx-auto px-2 py-16'>
+    <div id='galeria' className='max-w-[1240px] mx-auto px-2 py-16 lg:h-screen'>
       <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
           <Typewriter
               options={{
