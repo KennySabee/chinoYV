@@ -4,6 +4,7 @@ import { SliderData } from './SliderData';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import Typewriter from "typewriter-effect";
 
+
 const Galeria = ({ slides }) => {
   
   const [current, setCurrent] = useState(0);
@@ -22,8 +23,8 @@ const Galeria = ({ slides }) => {
   }
 
   return (
-    <div id='galeria' className='max-w-[1240px] mx-auto px-2 py-16 lg:h-screen'>
-      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+    <section id='galeria' className='max-w-[1240px] mx-auto px-2 py-16 lg:h-screen md:mb-60 ' >
+      <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
               options={{
                 strings: [ "Galeria","画廊" ],
@@ -47,7 +48,7 @@ const Galeria = ({ slides }) => {
             key={index}
             className={
               index === current
-                ? 'opacity-[1] ease-in duration-500'
+                ? 'opacity-[1] ease-in duration-500 '
                 : 'opacity-0'
             }
           >
@@ -60,8 +61,6 @@ const Galeria = ({ slides }) => {
                 <Image
                   src={slide.image}
                   alt='/'
-                  width='1440'
-                  height='900'
                   style={{objectFit:"cover"}}
                   priority 
                 />
@@ -75,7 +74,7 @@ const Galeria = ({ slides }) => {
         );
     })}
     </div>
-    </div>
+    </section>
   );
 };
 

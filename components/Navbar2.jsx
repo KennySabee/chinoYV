@@ -35,7 +35,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
+    <header
       style={{ backgroundColor: `${color}` }}
       className={
         shadow
@@ -171,7 +171,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

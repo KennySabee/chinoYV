@@ -9,9 +9,9 @@ import Typewriter from "typewriter-effect";
 
 const EquipoDocente = () => {
   return (
-    <div id="equipo" className="w-full ">
+    <section id="equipo" className="w-full md:mt-20">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+      <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
               options={{
                 strings: [ "Equipo Docente","教学团队"],
@@ -68,7 +68,7 @@ const EquipoDocente = () => {
         
           
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ const ProjectItems = ({ img, title, useWith, url }) => {
         src={img}
         alt="/"
         style={{ objectFit: "cover"} }
-        priority
+        
         
       />
       <div className="hidden group-hover:block absolute">

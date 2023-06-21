@@ -9,9 +9,9 @@ import Typewriter from "typewriter-effect";
 
 const Cursos = () => {
   return (
-    <div id='cursos' className='w-full'>
+    <section id='cursos' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <div className="uppercase text-2xl tracking-widest text-red-600 font-semibold"><Typewriter
+            <div className="uppercase text-3xl tracking-widest text-red-600 font-semibold"><Typewriter
               options={{
                 strings: [ "cursos","培训班"],
                 autoStart: true,
@@ -35,7 +35,7 @@ const Cursos = () => {
                 title='Cursos Online'
                 useWith='Ecuador'
                 url='/'
-                priority
+                
 
                 />
                 
@@ -43,7 +43,7 @@ const Cursos = () => {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }
 

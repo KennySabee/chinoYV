@@ -17,7 +17,7 @@ const TestimonioCard = ({title, info, name, profession,img}) => {
                 className="rounded-full w-9 h-9"
                 src={img}
                 alt="testimonial picture"
-                priority
+                
               />
               <div className="space-y-0.5 font-medium  text-left">
                 <div>{name}</div>

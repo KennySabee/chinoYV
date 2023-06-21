@@ -7,11 +7,12 @@ import testimonio3 from "@/public/assets/testimonios/pamelaSuarez.jpg";
 import testimonio4 from "@/public/assets/testimonios/alexanderAndrade.jpg";
 import { CldVideoPlayer } from "next-cloudinary";
 
+
 const Testimonios2 = () => {
   return (
-    <div id="testimonios" className="w-full  px-2 py-16">
+    <section id="testimonios" className="w-full  px-2 py-16">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+        <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
             options={{
               strings: ["Testimonios", "感言"],
@@ -72,11 +73,12 @@ const Testimonios2 = () => {
             width="1920"
             height="1080"
             src="ChinoYV/TestimonioVideoChinoYV_lbgyik"
-            // style={{objectFit:"cover"}}
+            showLogo= "false"
+             
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

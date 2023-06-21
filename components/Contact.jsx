@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] mx-auto px-2 py-16 w-full">
-      <div className="uppercase tracking-widest text-2xl text-red-600 font-semibold">
+      <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
               options={{
                 strings: [ "Contacto","接触"],
@@ -37,7 +37,7 @@ const Contact = () => {
                     className="rounded-xl hover:scale-105 ease-in duration-300"
                     src={contact}
                     alt="contact image"
-                    priority
+                    
                   />
                 </Link>
               </div>
