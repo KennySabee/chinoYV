@@ -21,8 +21,6 @@ export const SliderData = [
   {
     image: 'https://res.cloudinary.com/kennysabee/image/upload/v1687454831/ChinoYV/Galeria/imgGaleria6.jpg',
   },
-  {
-    image: 'https://res.cloudinary.com/kennysabee/image/upload/v1687454831/ChinoYV/Galeria/imgGaleria7.jpg',
-  },
+  
   
 ];
