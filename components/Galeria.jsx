@@ -62,6 +62,8 @@ const Galeria = ({ slides }) => {
                   src={slide.image}
                   alt='/'
                   style={{objectFit:"cover"}}
+                  width={1920}
+                  height={1080}
                   priority 
                 />
               )}
