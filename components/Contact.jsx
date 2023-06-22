@@ -26,7 +26,7 @@ const Contact = () => {
               
             />
           </div>
-        <h2 className="py-4">Comunícate</h2>
+        <h2 className="py-4">Contacto</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 ">
@@ -45,8 +45,8 @@ const Contact = () => {
                 <h2 className="py-2 mt-3">Club Chino YV</h2>
                 <p>Academia de Chino Mandarin</p>
                 <p className="py-4">
-                  Disponemos de cursos virtuales como presenciales. Contáctanos
-                  y conversemos.
+                我的语言的限制就是我的世界的限制 <br /> 
+                “Los limites de mi idioma son los límites de mi mundo”
                 </p>
               </div>
               <div>
@@ -71,7 +71,7 @@ const Contact = () => {
                     </div>
                   </Link>
                   <Link
-                    href="https://wa.link/d6q2ga "
+                    href="https://walink.co/53de20 "
                     target="_blank"
                     className="mr-6"
                   >

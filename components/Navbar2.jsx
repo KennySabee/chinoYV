@@ -155,7 +155,7 @@ const Navbar = () => {
                     <BsInstagram />
                   </div>
                 </Link>
-                <Link href="https://wa.link/d6q2ga" target="_blank">
+                <Link href="https://walink.co/53de20" target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsWhatsapp />
                   </div>

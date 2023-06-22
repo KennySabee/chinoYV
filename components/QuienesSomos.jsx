@@ -28,23 +28,12 @@ const QuienesSomos = () => {
             />
           </div>
           <h2 className="py-4">Chino YV</h2>
+          
           <p className="py-2 text-gray-600">
-            {`//`} Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Somos un equipo de profesionales con varios años de experiencia en la enseñanza del idioma chino mandarín. Nuestra experiencia de vida en China nos ha brindado la oportunidad de conocer una cultura extraordinaria y poder aprender el idioma. En los últimos años China se ha convertido en una gran potencia mundial en todos los niveles, llegando a ser uno de los principales socios comerciales con varios países en el mundo. Es por esta razón que actualmente se considera al Idioma Chino Mandarín como el “Idioma del Futuro”. 
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            accusamus dolorum nam exercitationem numquam nesciunt quas doloribus
-            totam consequatur, eaque repellendus autem, provident unde adipisci
-            blanditiis perferendis distinctio, quidem quos.
-          </p>
-          <p className="py-2 text-gray-600">
-            Aperiam temporibus repellendus fuga iusto nesciunt beatae dicta ut.
-            Est debitis vero molestias accusamus nostrum unde laudantium optio.
-            Rerum, repellendus eveniet consectetur ipsam unde repellat iure
-            minima modi porro. Vel.Aperiam temporibus repellendus fuga iusto
-            nesciunt beatae dicta ut. Est debitis vero molestias accusamus
-            nostrum unde laudantium optio. Rerum, repellendus eveniet
-            consectetur ipsam unde repellat iure minima modi porro. Vel.
+          En nuestra Academia todos nuestros cursos están enfocados en la preparación para el examen de suficiencia en el idioma llamado HSK (汉语水平考试). Ofrecemos clases Online y Presenciales con metodología grupal y personalizada. Aprende el idioma del futuro con nosotros! 学汉语吧!
           </p>
           <Link href="/#cursos">
             <p className="py-2 text-gray-600 underline cursor-pointer">

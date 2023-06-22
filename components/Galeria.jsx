@@ -61,9 +61,9 @@ const Galeria = ({ slides }) => {
                 <Image
                   src={slide.image}
                   alt='/'
-                  style={{objectFit:"cover"}}
-                  width={1920}
-                  height={1080}
+                  style={{objectFit:"contain"}}
+                  width={1080}
+                  height={566}
                   priority 
                 />
               )}

@@ -30,10 +30,7 @@ const Hero = ({ message }) => {
           </h1>
           
           <p className="py-4 text-gray-200 max-w-[70%] m-auto">
-            Somos una academia de Chino Mandarín especializada en brindar una
-            enseñanza del idioma y cultura china excepcional. Actualmente, nos
-            encontramos brindando hacia nuestros alumnos cursos de manera
-            virtual, como presencial, pregunta por ellos.
+            Academia de Chino Mandarín enfocada en la enseñanza del idioma y cultura china, con el objetivo de brindar más oportunidades académicas y laborales a nuestros estudiantes.
           </p>
         </div>
         
@@ -44,7 +41,7 @@ const Hero = ({ message }) => {
             target="_blank"
             className="mr-6"
           >
-            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700 shadow-red-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700 shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsFacebook />
             </div>
           </Link>
@@ -53,17 +50,17 @@ const Hero = ({ message }) => {
             target="_blank"
             className="mr-6"
           >
-            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsInstagram />
             </div>
           </Link>
-          <Link href="https://wa.link/d6q2ga " target="_blank" className="mr-6">
-            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+          <Link href="https://walink.co/53de20 " target="_blank" className="mr-6">
+            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsWhatsapp />
             </div>
           </Link>
           <Link href="https://www.tiktok.com/@clubchinoyv" target="_blank">
-            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <FaTiktok />
             </div>
           </Link>

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Club Chino YV | Escuela de Chino Mandarin</title>
+        <title>Club Chino YV | Academia de Chino Mandarin</title>
       </Head>
       <Hero message="Aprende el idioma del futuro" />
       <QuienesSomos />
