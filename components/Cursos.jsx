@@ -27,14 +27,14 @@ const Cursos = () => {
                 img={cursoPresencial}
                 title='Cursos Presenciales'
                 useWith='Valle de los Chillos'
-                url='/'
+                url='https://walink.co/53de20'
 
                 />
                 <ProjectItems 
                 img={cursoOnline}
                 title='Cursos Online'
                 useWith='Ecuador'
-                url='/'
+                url='https://walink.co/53de20'
                 
 
                 />

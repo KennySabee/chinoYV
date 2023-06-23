@@ -9,7 +9,7 @@ const Hero = ({ message }) => {
     <section className="relative flex items-center justify-center h-screen mb-12 w-full ">
       {/* bg-fixed bg-center bg-cover custom-img */}
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-screen bg-black/70 " />
+      <div className="absolute top-0 left-0 w-full h-screen bg-black/80 " />
       <video 
         src="https://res.cloudinary.com/kennysabee/video/upload/f_auto:video,q_auto/v1/ChinoYV/heroChinoYV"
         autoPlay

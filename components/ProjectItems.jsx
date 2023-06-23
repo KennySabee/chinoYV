@@ -17,7 +17,7 @@ const ProjectItems = ({ img, title, useWith, url }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center uppercase">{useWith}</p>
-        <Link href={url}>
+        <Link href={url} target="_blank">
           <p className="text-center uppercase py-3 rounded-lg bg-white text-gray-700 font-bold text-sm hover:scale-105 ease-in duration-300">
             Más Información
           </p>
