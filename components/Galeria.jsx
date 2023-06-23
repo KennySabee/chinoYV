@@ -23,7 +23,7 @@ const Galeria = ({ slides }) => {
   }
 
   return (
-    <section id='galeria' className='max-w-[1240px] mx-auto px-2 py-16 lg:h-screen md:mb-60 ' >
+    <section id='galeria' className='max-w-[1240px] mx-auto px-2 py-16 sm:h-screen sm:mb-80 md:mb-32 lg:mb-80 xl:mb-40 ' >
       <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
               options={{
@@ -54,7 +54,7 @@ const Galeria = ({ slides }) => {
           >
               <FaArrowCircleLeft
                 onClick={prevSlide}
-                className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] left-[30px] sm:left-[80px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}
               />
               {index === current && (
@@ -69,7 +69,7 @@ const Galeria = ({ slides }) => {
               )}
               <FaArrowCircleRight
                 onClick={nextSlide}
-                className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] right-[30px] sm:right-[80px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}
               />
             </div>

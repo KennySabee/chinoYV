@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 
 const EquipoDocente = () => {
   return (
-    <section id="equipo" className="w-full md:mt-20">
+    <section id="equipo" className="w-full sm:h-screen sm:mb-20 md:mb-0 lg:mb-52 xl:mb-0 ">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
       <div className="uppercase tracking-widest text-3xl text-red-600 font-semibold">
           <Typewriter
@@ -26,7 +26,7 @@ const EquipoDocente = () => {
             />
           </div>
         <h2 className="py-4">Equipo Académico y Administrativo</h2>
-        <div className="grid md:grid-cols-3 gap-8 group">
+        <div className="grid sm:grid-cols-3  gap-8 group">
           <EquipoCard
             img={adrianY}
             nombre={"Ing. Adrian Yanchapaxi"}
