@@ -49,6 +49,7 @@ const Hero = ({ message }) => {
             href="https://www.facebook.com/clubchinoyv"
             target="_blank"
             className="mr-6"
+            aria-label="Facebook"
           >
             <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700 shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsFacebook />
@@ -58,6 +59,7 @@ const Hero = ({ message }) => {
             href="https://www.instagram.com/clubchinoyv/"
             target="_blank"
             className="mr-6"
+            aria-label="Instagram"
           >
             <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsInstagram />
@@ -67,12 +69,13 @@ const Hero = ({ message }) => {
             href="https://walink.co/53de20 "
             target="_blank"
             className="mr-6"
+            aria-label="WhatsApp"
           >
             <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <BsWhatsapp />
             </div>
           </Link>
-          <Link href="https://www.tiktok.com/@clubchinoyv" target="_blank">
+          <Link href="https://www.tiktok.com/@clubchinoyv" target="_blank" aria-label="Tik Tok">
             <div className="rounded-full shadow-md bg-gradient-to-r from-red-500 to-red-700  shadow-red-400 p-6 cursor-pointer opacity-90 hover:scale-125 hover:opacity-100 ease-in duration-300">
               <FaTiktok />
             </div>

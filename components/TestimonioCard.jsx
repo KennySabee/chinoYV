@@ -4,7 +4,7 @@ import Image from 'next/image'
 const TestimonioCard = ({title, info, name, profession,img}) => {
   return (
     <figure className="flex flex-col items-center justify-center p-8 text-center shadow-sm md:shadow-lg shadow-gray-400 rounded-xl   ">
-            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
+            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-600 lg:mb-8 ">
               <h3 className="text-lg font-semibold text-gray-900 ">
                 {title}
               </h3>
@@ -21,7 +21,7 @@ const TestimonioCard = ({title, info, name, profession,img}) => {
               />
               <div className="space-y-0.5 font-medium  text-left">
                 <div>{name}</div>
-                <div className="text-sm text-gray-500 ">
+                <div className="text-sm text-gray-600 ">
                   {profession}
                 </div>
               </div>

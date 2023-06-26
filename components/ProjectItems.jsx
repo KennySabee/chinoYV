@@ -13,13 +13,11 @@ const ProjectItems = ({ img, title, useWith, url }) => {
         
       />
       <div className="hidden group-hover:block absolute">
-        <h3 className="text-2xl text-white tracking-widest text-center">
-          {title}
-        </h3>
-        <p className="pb-4 pt-2 text-white text-center uppercase">{useWith}</p>
+        
+        <p className="pb-4 pt-2 text-white text-center text-base font-medium uppercase">{useWith}</p>
         <Link href={url} target="_blank">
-          <p className="text-center uppercase py-3 rounded-lg bg-white text-gray-700 font-bold text-sm hover:scale-105 ease-in duration-300">
-            Más Información
+          <p className="text-center text-lg px-5 uppercase tracking-widest py-3 rounded-lg bg-white text-gray-700 font-bold hover:bg-slate-100  hover:scale-105 ease-in duration-300">
+          {title}
           </p>
         </Link>
       </div>

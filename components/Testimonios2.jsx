@@ -31,7 +31,7 @@ const Testimonios2 = () => {
             info={`" Las clases son muy dinámicas y divertidas. ❤️💯💯
           "`}
             name={"Vanessa Mena"}
-            profession={"Arquitecta"}
+            profession={"Arquitecta"} 
             img={testimonio1}
           />
           <div className="hidden md:block">
