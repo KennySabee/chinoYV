@@ -5,7 +5,7 @@ import testimonio1 from "@/public/assets/testimonios/vanessaMena.jpg";
 import testimonio2 from "@/public/assets/testimonios/traceyElizabeth.jpg";
 import testimonio3 from "@/public/assets/testimonios/pamelaSuarez.jpg";
 import testimonio4 from "@/public/assets/testimonios/alexanderAndrade.jpg";
-import { CldVideoPlayer } from "next-cloudinary";
+import TestimonioVideo from '@/components/TestimonioVideo'
 
 
 const Testimonios2 = () => {
@@ -67,16 +67,9 @@ const Testimonios2 = () => {
             />
           </div>
         </div>
-        <div className=" w-96 h-96 m-auto mt-5 lg:w-[520px] lg:h-[520px] ">
-          <CldVideoPlayer
-            id="video-testimonios"
-            width="1920"
-            height="1080"
-            src="ChinoYV/TestimonioVideoChinoYV_lbgyik"
-            showLogo= "false"
-             
-          />
-        </div>
+
+        <TestimonioVideo/>
+        
       </div>
     </section>
   );
