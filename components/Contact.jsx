@@ -50,8 +50,11 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Conecta con nosotros</p>
-                <div className="flex items-center justify-between py-4">
+                
+                <p className="  font-bold mt-3 uppercase">Matriz Quito </p>
+                <p className="mt-2">Isla San Cristobal y Geovanni Farina, edificio Alcazar del Valle 2do piso. Valle de los Chillos, Quito.</p>
+                <p className="pt-2"> 0998720755</p>
+                <div className="flex items-center justify-between py-4 mt-5">
                   <Link
                     href="https://www.facebook.com/clubchinoyv"
                     target="_blank"

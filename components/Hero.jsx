@@ -24,7 +24,7 @@ const Hero = ({ message }) => {
           <h1 className="pt-4 ">
             <Typewriter
               options={{
-                strings: ["大家好，我们是", "Hola somos"],
+                strings: ["大家好，我们是", "Hola somos el"],
                 autoStart: true,
                 loop: true,
                 pauseFor: 500,
@@ -39,8 +39,7 @@ const Hero = ({ message }) => {
 
           <p className="py-4 text-gray-200 max-w-[70%] m-auto">
             Academia de Chino Mandarín enfocada en la enseñanza del idioma y
-            cultura china, con el objetivo de brindar más oportunidades
-            académicas y laborales a nuestros estudiantes.
+            cultura china. Nuestro objetivo es brindar más oportunidades académicas y laborales a nuestros estudiantes en el mundo. 
           </p>
         </div>
 

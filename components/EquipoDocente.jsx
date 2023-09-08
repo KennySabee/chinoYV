@@ -26,7 +26,7 @@ const EquipoDocente = () => {
             />
           </div>
         <h2 className="py-4">Equipo Académico y Administrativo</h2>
-        <div className="grid sm:grid-cols-3  gap-8 group">
+        <div className="grid sm:grid-cols-2  gap-16 group">
           <EquipoCard
             img={adrianY}
             nombre={"Ing. Adrian Yanchapaxi"}
@@ -56,13 +56,7 @@ const EquipoDocente = () => {
             info={`
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit."`}
           />
-          <EquipoCard
-            img={alejandra}
-            nombre={"Alejandra Núñez"}
-            puesto={'Area administrativa'}
-            info={`
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."`}
-          />
+          
           
         </div>
         
