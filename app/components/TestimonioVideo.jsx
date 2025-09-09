@@ -1,33 +1,23 @@
-// app/components/TestimonioVideo.jsx
-'use client'
-
-import dynamic from 'next/dynamic';
-
-const DynamicCldVideoPlayer = dynamic(() => import('next-cloudinary').then(module => module.CldVideoPlayer), { ssr: false });
-
 function TestimonioVideo() {
   return (
     <div className="w-full max-w-4xl mx-auto my-8">
       <div className="relative overflow-hidden rounded-lg shadow-xl w-full">
-        <DynamicCldVideoPlayer
+        <video
           id="video-testimonios"
           width="100%"
           height="500"
-          src="ChinoYV/TestimonioVideoChinoYV_lbgyik"
-          showLogo={false}
-          autoPlay={true}
+          src="https://res.cloudinary.com/kennysabee/video/upload/f_auto:video,q_auto/v1/ChinoYV/TestimonioVideoChinoYV_lbyik"
+          autoPlay={false}
           loop={true}
           muted={true}
-          controls={false} // Oculta los controles del reproductor
+          controls={false}
           className="w-full h-full object-cover"
-          style={{ 
-            aspectRatio: '16/9', // Asegura proporciones correctas
-            maxHeight: '500px' 
+          style={{
+            aspectRatio: '16/9',
+            maxHeight: '500px'
           }}
         />
       </div>
     </div>
   );
 }
-
-export default TestimonioVideo;
