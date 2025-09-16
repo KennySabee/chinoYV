@@ -2,7 +2,7 @@
 'use client'
 
 import React from "react";
-import quienesSomosImg from "@/public/assets/quienesSomosChinoYV.jpg";
+import quienesSomosImg from "@/public/assets/quienesSomosChinoYV.jpeg";
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";

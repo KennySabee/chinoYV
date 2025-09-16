@@ -106,7 +106,7 @@ const Galeria = ({ slides = SliderData }) => {
                 src={slide.image}
                 alt={slide.alt || `Galería Club Chino YV - Imagen ${index + 1}`}
                 fill
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "contain" }}
                 priority={index === 0}
                 className="brightness-90"
               />
