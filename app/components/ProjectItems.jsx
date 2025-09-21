@@ -16,7 +16,7 @@ const ProjectItems = ({ img, title, useWith, url, description, features }) => {
         <Image 
           src={img} 
           alt={title} 
-          className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
+          className="w-full h-64 object-contain transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       </div>
@@ -40,7 +40,7 @@ const ProjectItems = ({ img, title, useWith, url, description, features }) => {
             <ul className="mb-6 space-y-2">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-center text-sm text-gray-700">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
+                  <span className="w-2 h-2 bg-red-500 rounded-full mr-3 pl-2"></span>
                   {feature}
                 </li>
               ))}

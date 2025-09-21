@@ -1,9 +1,9 @@
 // app/components/Cursos.jsx
 'use client'
 
-import cursoPresencial from '@/public/assets/projects/cursosPresenciales.jpeg'
-import cursoOnline from '@/public/assets/projects/cursosOnline.jpeg'
-import cursoNegocios from '@/public/assets/projects/cursosOnline.jpeg'
+import cursoPresencial from '@/public/assets/projects/cursoPresencial.png'
+import cursoOnline from '@/public/assets/projects/cursoOnline.png'
+import cursoNegocios from '@/public/assets/projects/cursoNegocios.png'
 import ProjectItems from './ProjectItems'
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
@@ -14,26 +14,26 @@ const Cursos = () => {
     {
       img: cursoPresencial,
       title: 'Cursos Presenciales',
-      useWith: 'Valle de los Chillos',
+      useWith: 'Valle de los Chillos o Quito',
       url: 'https://walink.co/53de20',
       description: 'Clases presenciales con profesores nativos. Aprende en un ambiente interactivo y cultural.',
-      features: ['Grupos reducidos', 'Materiales incluidos', 'Certificación HSK']
+      features: ['2 días a la semana (1 hora y 30min cada clase). Valor mensual de 65USD e inscripción de 25USD', '3 días a la semana (1 hora y 30min cada clase). Valor mensual de 85USD e inscripción de 25USD', 'Sábados de 9:00am a 12:00pm (3 horas cada sábado). Valor mensual de 65USD e inscripción de 25USD']
     },
     {
       img: cursoOnline,
       title: 'Cursos Online',
       useWith: 'Ecuador',
       url: 'https://walink.co/53de20',
-      description: 'Flexibilidad total para aprender desde casa. Clases en vivo con profesores especializados.',
-      features: ['Horarios flexibles', 'Clases grabadas', 'Soporte 24/7']
+      description: 'Flexibilidad total para aprender desde casa. Vía Zoom Pro para toda Latinoamérica.',
+      features: ['2 días a la semana (1 hora y 30min cada clase). Valor mensual de 50USD e inscripción de 20USD.', '⁠3 días a la semana (1 hora y 30min cada clase). Valor mensual de 70USD e inscripción de 20USD', '4 días a la semana (1 hora y 30min cada clase). Valor mensual de 95USD e inscripción de 20USD.','Sábados de 9:00am a 12:00pm (3 horas cada sábado). Valor mensual de 50USD e inscripción de 20USD']
     },
     {
       img: cursoNegocios,
       title: 'Cursos de Negocios',
       useWith: 'Profesionales',
       url: 'https://walink.co/53de20',
-      description: 'Especialización en chino para negocios. Perfecto para emprendedores y profesionales.',
-      features: ['Vocabulario empresarial', 'Casos prácticos', 'Red de contactos']
+      description: 'Especialización en chino para negocios. Perfecto para emprendedores y profesionales, vía Zoom Pro para toda Latinoamérica .',
+      features: ['Vocabulario empresarial', '3 días a la semana (1 hora y 30min cada clase). Valor mensual de 199USD e inscripción de 30USD',]
     }
   ];
 
