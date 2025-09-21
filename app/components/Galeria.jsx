@@ -180,11 +180,11 @@ const Galeria = ({ slides = SliderData }) => {
       >
        
         <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-          <div className="text-3xl font-bold text-red-600 mb-2">200+</div>
+          <div className="text-3xl font-bold text-red-600 mb-2">350+</div>
           <div className="text-gray-600">Estudiantes</div>
         </div>
         <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-          <div className="text-3xl font-bold text-red-600 mb-2">5+</div>
+          <div className="text-3xl font-bold text-red-600 mb-2">25+</div>
           <div className="text-gray-600">Becas en China</div>
         </div>
       </motion.div>

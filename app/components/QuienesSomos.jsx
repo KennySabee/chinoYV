@@ -120,7 +120,7 @@ const QuienesSomos = () => {
               <div className="flex items-center">
                 <span className="text-2xl">🎓</span>
                 <div className="ml-2">
-                  <p className="text-sm font-bold text-red-600">Más de 5</p>
+                  <p className="text-sm font-bold text-red-600">Más de 25</p>
                   <p className="text-xs text-gray-600">Becas en China</p>
                 </div>
               </div>

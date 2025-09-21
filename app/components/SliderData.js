@@ -61,7 +61,22 @@ export const SliderData = [
   },
   {
     image: require("@/public/assets/galeria/imgGaleria21.jpeg").default,
+
   },
+  ,
+  {
+    image: require("@/public/assets/galeria/imgGaleria22.jpeg").default,
+  },
+  {
+    image: require("@/public/assets/galeria/imgGaleria23.jpeg").default,
+  },
+  {
+    image: require("@/public/assets/galeria/imgGaleria24.jpeg").default,
+  },
+  {
+    image: require("@/public/assets/galeria/imgGaleria25.jpeg").default,
+  },
+ 
 
 
 ];
