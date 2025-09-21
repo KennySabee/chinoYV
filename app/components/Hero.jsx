@@ -113,8 +113,8 @@ const Hero = ({ message }) => {
           className="mt-6 p-4 bg-red-600/20 backdrop-blur-sm rounded-lg border border-red-500/30 text-center max-w-md"
         >
           <p className="text-white text-sm md:text-base">
-            🎓 Aprende el idioma del futuro<br></br>
-            ¡Más de 5 estudiantes ya lograron becas oficiales del Gobierno Chino!
+            🎓 Cuando eres parte del Club Chino YV<br></br>
+            ¡Recibe nuestra asesoria gratuita para la obetención de becas oficiales del Gobierno Chino!
           </p>
         </motion.div>
       </div>
