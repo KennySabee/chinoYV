@@ -11,7 +11,7 @@ export const SliderData = [
   {
     image: require("@/public/assets/galeria/imgGaleria4.jpeg").default,
   },
-    {
+  {
     image: require("@/public/assets/galeria/imgGaleria5.jpeg").default,
   },
   {
@@ -23,7 +23,7 @@ export const SliderData = [
   {
     image: require("@/public/assets/galeria/imgGaleria8.jpeg").default,
   },
-    {
+  {
     image: require("@/public/assets/galeria/imgGaleria9.jpeg").default,
   },
   {
@@ -35,7 +35,7 @@ export const SliderData = [
   {
     image: require("@/public/assets/galeria/imgGaleria12.jpeg").default,
   },
-   {
+  {
     image: require("@/public/assets/galeria/imgGaleria13.jpeg").default,
   },
   {
@@ -44,7 +44,7 @@ export const SliderData = [
   {
     image: require("@/public/assets/galeria/imgGaleria15.jpeg").default,
   },
-    {
+  {
     image: require("@/public/assets/galeria/imgGaleria16.jpeg").default,
   },
   {
@@ -61,9 +61,7 @@ export const SliderData = [
   },
   {
     image: require("@/public/assets/galeria/imgGaleria21.jpeg").default,
-
   },
-  ,
   {
     image: require("@/public/assets/galeria/imgGaleria22.jpeg").default,
   },
@@ -76,9 +74,4 @@ export const SliderData = [
   {
     image: require("@/public/assets/galeria/imgGaleria25.jpeg").default,
   },
- 
-
-
 ];
-
-
